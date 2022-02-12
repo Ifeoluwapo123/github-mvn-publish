@@ -45,7 +45,7 @@
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <configuration>
-                    <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+                    <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/ </altDeploymentRepository>
                 </configuration>
             </plugin>
         </plugins>
